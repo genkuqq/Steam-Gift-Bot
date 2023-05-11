@@ -1,0 +1,8 @@
+{
+		"username": "<username>",
+		"password": "<password>",
+		"key": "<api key>",
+		"shared_secret": "<shared secret>",
+		"steam64ID": "<steam64id>",
+		"webcookie": "<steamLoginSecure cookie>"
+}
