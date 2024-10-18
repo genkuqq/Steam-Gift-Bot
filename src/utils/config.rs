@@ -11,6 +11,7 @@ pub struct Config {
     pub shared_secret: String,
     pub steam64_id: String,
     pub web_cookie: String,
+    pub duration: u8
 }
 
 impl Config {

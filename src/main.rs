@@ -17,6 +17,6 @@ fn main() -> Result<(),Box<dyn std::error::Error>> {
     loop {
         println!("* Trade Bot pulling Trade Offers *");
         let _ = bot.pull_trades(params);
-        thread::sleep(Duration::from_secs(5));
+        thread::sleep(Duration::from_secs(bot.duration.into()));
     }
 }

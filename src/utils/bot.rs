@@ -10,6 +10,7 @@ pub struct Bot {
     pub shared_secret: String,
     pub steam64_id: String,
     pub web_cookie: String,
+    pub duration: u8
 }
 
 impl Bot {
@@ -20,7 +21,8 @@ impl Bot {
             key: config.key,
             shared_secret: config.shared_secret,
             steam64_id: config.steam64_id,
-            web_cookie: config.web_cookie
+            web_cookie: config.web_cookie,
+            duration: config.duration
         }
     }
     pub fn pull_trades(&self, params: [(&str, &str); 4]) -> Result<(), Box<dyn Error>> {
