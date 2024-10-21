@@ -4,4 +4,4 @@ key = "<api key>"
 shared_secret = "<shared secret>"
 steam64_id = "<steam64id>"
 web_cookie = "<steamLoginSecure cookie>"
-duration = 5 <seconds>
+duration = 5 #<seconds>
