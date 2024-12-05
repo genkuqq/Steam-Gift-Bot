@@ -1,9 +1,0 @@
-[package]
-name = "steam-gift-bot"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-toml = "0.8.19"
-serde = { version = "1.0.210", features = ["derive"] }
-reqwest = { version = "0.12.8", features = ["json","blocking"] }
